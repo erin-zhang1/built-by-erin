@@ -12,7 +12,7 @@ export const aboutCards: AboutCard[] = [
     title: "Gundam Building",
     description:
       "Building Gundam models is one of my favorite hands-on hobbies. I enjoy the focus, precision, and patience it takes to turn small pieces into a finished build.",
-    image: "/about/gundam-building.png",
+    image: "/about/gundam-building-upright.png",
     imageAlt:
       "A warm hobby desk with a robot model kit, tools, plastic runners, and a desk lamp.",
     icon: "robot",
@@ -25,11 +25,11 @@ export const aboutCards: AboutCard[] = [
     imageAlt: "A personal travel video from IMG_6588.",
     icon: "travel",
   },
-    {
+  {
     title: "Reef Tank Keeping",
     description:
       "Keeping a reef tank has taught me to observe carefully and stay consistent. It is a long-term project where small details matter, and I enjoy learning from the system over time.",
-    image: "/about/reef-tank-keeping.png",
+    image: "/about/reef-tank-keeping.jpeg",
     imageAlt:
       "A small reef tank with colorful coral and fish in a cozy home setting.",
     icon: "reef",

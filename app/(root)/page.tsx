@@ -26,7 +26,7 @@ import profileImg from "@/public/profile-img.jpg";
 export const metadata: Metadata = {
   title: `${pagesConfig.home.metadata.title}`,
   description:
-    "Erin Zhang - Software Developer building Python, R, SQL, and Django automation systems for actuarial reporting, financial data processing, and analytics.",
+    "Erin Zhang - Python Software Developer building correctness-focused Python backend workflows and financial data systems.",
   alternates: {
     canonical: siteConfig.url,
   },
@@ -99,13 +99,13 @@ export default function IndexPage() {
             delay={0.4}
             className="font-heading text-[19px] font-semibold leading-[1.19] tracking-[0.231px] text-[#1d1d1f]"
           >
-            Software Developer
+            Python Software Developer
           </AnimatedText>
           <div className="mt-2 max-w-[42rem] text-center">
             <p className="text-[20px] font-light leading-[1.36] tracking-normal text-[#333333] md:text-[21px]">
-              Software developer building Python, R, SQL, and Django automation
-              systems for actuarial reporting, financial data processing, and
-              analytics.
+              I build correctness-focused Python backend workflows and financial
+              data systems, translating complex business logic into clean,
+              testable software.
             </p>
           </div>
 
