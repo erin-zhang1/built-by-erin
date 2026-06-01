@@ -14,25 +14,25 @@ export const reportGenerationImpact = {
   afterValue: 3,
   afterSuffix: " sec",
   description:
-    "Replaced a manual Excel-heavy process with a reproducible Python reporting workflow.",
+    "Automated Excel-heavy actuarial reporting, reducing generation time from 5 hours to 3 seconds",
   trend: [300, 180, 72, 18, 5, 3, 3],
 };
 
 export const impactMetrics: ImpactMetric[] = [
   {
     label: "Test Coverage",
-    value: 91,
+    value: 94,
     suffix: "%",
     description:
-      "Regression coverage for core reporting and transformation logic",
-    trend: [72, 76, 81, 84, 88, 91],
+      "pytest regression coverage for financial calculation, reporting, and transformation logic.",
+    trend: [72, 76, 81, 84, 88, 94],
   },
   {
     label: "Automation Scripts",
     value: 50,
     suffix: "+",
     description:
-      "Python workflows for reporting, validation, and data processing",
+      "Reusable Python workflows for reporting, validation, file processing, and data transformation.",
     illustration: "code",
   },
 ];
